@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+body {
+    background: linear-gradient(to right, #000000, #3d3d3d);
+    color: aliceblue;
+    /* font-family: 'Manrope', sans-serif; */
+    font-family: 'Caveat', cursive;
+    font-size: 115px;
+}
+@media only screen and (max-device-width: 480px){
+    .name {
+        color: aliceblue;
+
+    }
+}
+/* <style> */
+
+
+#spin {
+    color:red;
+  }
+#spin:after {
+    content:"";
+    animation-name: spin;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-timing-function: ease-out;
+    animation-play-state: running;
+    animation-delay: 0ms;
+    animation-fill-mode: both;
+  }
+@keyframes spin {
+    0% { content:"Jain";}
+    10% { content:"Eric";}
+    20% { content:"Artist";}
+    30% { content:"Software Developer";}
+    40% { content:"Enthusiast";}
+    50% { content: "Black humor";}
+    60% { content: "Cat lover";}
+    70% { content: "Poetry";}
+    80% { content: "atque";}
+    90% { content: "fuga";}
+  }
