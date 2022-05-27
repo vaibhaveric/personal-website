@@ -7,7 +7,7 @@ export default function home() {
     return (<>
         <body>
             <div  className='name' >
-            <div>VAIBHAV</div>
+            <div>VAIBHAV</div> 
               {/* <br/> */}
               <span id="spin"></span>
 
